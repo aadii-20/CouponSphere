@@ -1,0 +1,37 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.slick-dots li.slick-active button:before {
+  opacity: .75;
+  color: rgb(201, 28, 192) !important;
+}
+
+.slick-prev:before, .slick-next:before {
+  font-family: 'slick';
+  font-size: 30px !important;
+  line-height: 1;
+  opacity: .75;
+  color: white;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+
+.slick-prev:before, .slick-next:before {
+  display:  none !important;
+}
+
+
+.slick-arrow, .slick-next {
+  display: none !important;;
+}
+
+
+.hide-scrollbar::-webkit-scrollbar {
+  display: none;
+}
+
+.hide-scrollbar {
+  scrollbar-width: none; /* Firefox */
+}
